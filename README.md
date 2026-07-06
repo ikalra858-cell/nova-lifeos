@@ -163,9 +163,51 @@ NOVA combines everything into one intelligent Life Operating System that underst
 
 # 📸 Screenshots
 
-_Add screenshots of the dashboard, AI chat, planner, analytics, and voice assistant here._
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
 
 ---
+
+## Analytics
+
+![Analytics](screenshots/analytics.png)
+
+---
+
+## AI Chat
+
+![AI Chat](screenshots/chat.png)
+
+---
+
+## Tasks
+
+![Tasks](screenshots/task.png)
+
+---
+
+## Notes
+
+![Notes](screenshots/notes.png)
+
+---
+
+## Goals
+
+![Goals](screenshots/goals.png)
+
+---
+
+## AI Planner
+
+![Planner](screenshots/planner.png)
+
+---
+
+## GitHub Repository
+
+![GitHub](screenshots/github.png)
 
 # 📜 License
 
