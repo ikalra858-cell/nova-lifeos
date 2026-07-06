@@ -1,154 +1,16 @@
-# 🚀 NOVA – AI Life Operating System
+# React + Vite
 
-## 🧠 Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-NOVA (Neural Operating Virtual Assistant) is an AI-powered Life Operating System that combines productivity management and conversational AI into a single application.
+Currently, two official plugins are available:
 
-Instead of using separate apps for notes, tasks, goals, calendars, and planning, NOVA acts as a personal AI assistant capable of remembering information, organizing schedules, planning the day, and responding naturally using Google's Gemini AI.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-# ✨ Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🤖 AI Chat
-- Powered by Google Gemini 2.5 Flash
-- Natural conversations
-- Productivity assistant
+## Expanding the ESLint configuration
 
-## 📌 Task Manager
-- Add tasks
-- Show tasks
-- Delete tasks
-- Delete all tasks
-
-## 📝 Notes
-- Save notes
-- View notes
-- Delete notes
-
-## 📅 Events
-- Schedule events
-- View events
-- Delete events
-
-## 🎯 Goals
-- Add goals
-- View goals
-- Delete goals
-
-## 🧠 Personal Memory
-- Remember user name
-- Store custom memories
-- Recall saved memories
-
-## 📊 Analytics Dashboard
-- Task count
-- Notes count
-- Event count
-- Goal count
-- Productivity overview
-
-## 🎤 Voice Assistant
-- Speech Recognition
-- Voice commands
-
-## 🗓 Daily Planner
-- Generates a daily productivity plan using stored data.
-
----
-
-# 🏗 Tech Stack
-
-Frontend
-- React
-- TailwindCSS
-- Axios
-
-Backend
-- Flask
-- SQLite
-- Google Gemini API
-
-AI
-- Gemini 2.5 Flash
-
-Speech
-- Web Speech API
-
----
-
-# 🏛 Architecture
-
-User
-↓
-
-React Frontend
-
-↓
-
-Flask Backend
-
-↓
-
-Intent Detection
-
-↓
-
-SQLite Database
-
-↓
-
-Gemini AI
-
-↓
-
-Response to User
-
----
-
-# 📸 Screenshots
-
-(Add screenshots here)
-
----
-
-# 🚀 Installation
-
-Clone repository
-
-```bash
-git clone <your-github-link>
-```
-
-Backend
-
-```bash
-cd backend
-pip install -r requirements.txt
-python app.py
-```
-
-Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-# 🔮 Future Improvements
-
-- Authentication
-- Cloud Sync
-- Mobile App
-- Smart Notifications
-- Multi-agent Architecture
-- Calendar Integration
-
----
-
-# 👨‍💻 Author
-
-Built by **Isha Kalra** for the Kaggle AI Agents Intensive Vibe Coding Capstone.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
